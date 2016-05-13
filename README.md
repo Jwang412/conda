@@ -1,3 +1,5 @@
+![pic](./conda.png)
+
 # conda
 
 Read about it here : [http://conda.pydata.org/docs/](http://conda.pydata.org/docs/) and checkout [bioconda](https://bioconda.github.io/)

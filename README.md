@@ -6,6 +6,7 @@ Read about it here : [http://conda.pydata.org/docs/](http://conda.pydata.org/doc
 
 ## my collection of conda builds 
 
+Stuff I like and use and not up on [bioconda](https://bioconda.github.io/) yet. 
 
 | Package |Url |install|
 |:---|---:|---:|

@@ -15,5 +15,4 @@ Stuff I like and use and not up on [bioconda](https://bioconda.github.io/) yet.
 |nextflow|[https://anaconda.org/sjnewhouse/nextflow](https://anaconda.org/sjnewhouse/nextflow)|`conda install -c sjnewhouse nextflow=0.18.3`|
 |    |[recipe](https://github.com/snewhouse/conda/tree/master/recipes/nextflow)||
 
-https://github.com/snewhouse/conda/tree/master/recipes/glia  
-https://github.com/snewhouse/conda/tree/master/recipes/nextflow  
+

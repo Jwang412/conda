@@ -6,7 +6,7 @@ Read about it here : [http://conda.pydata.org/docs/](http://conda.pydata.org/doc
 
 ## my collection of conda builds 
 
-Stuff I like and use and not up on [bioconda](https://bioconda.github.io/) yet*. 
+Stuff I like and use and not up on [bioconda](https://bioconda.github.io/) yet^*. 
 
 | Package |Url |install|
 |:---|---:|---:|
@@ -19,4 +19,4 @@ Stuff I like and use and not up on [bioconda](https://bioconda.github.io/) yet*.
 
 ***
 
-* : bioconda's removal of zlib from build process has made it "less" smooth with builds that require zlib
+^* : bioconda's removal of zlib from build process has made it "less" smooth with builds that require zlib

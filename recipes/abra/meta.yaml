@@ -1,0 +1,25 @@
+package:
+  name: abra
+  version: 'v0.96'
+
+source:
+  fn: abra-0.96-SNAPSHOT-jar-with-dependencies.jar
+  url: https://github.com/mozack/abra/releases/download/v0.96/abra-0.96-SNAPSHOT-jar-with-dependencies.jar
+
+build:
+  number: 0
+  skip: true
+
+requirements:
+  run:
+    - java-jdk
+    - bwa
+
+test:
+  commands:
+    - vardict-java -h
+
+about:
+  home: https://github.com/mozack/abra
+  license: MIT
+  summary: ABRA - Assembly Based ReAligner

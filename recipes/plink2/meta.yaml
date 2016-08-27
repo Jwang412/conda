@@ -1,0 +1,25 @@
+package:
+  name: plink1.9
+  version: 'plink160816_plink_linux_x86_64_dev'
+
+source:
+  fn: beagle.03May16.862.jar
+  url: https://www.cog-genomics.org/static/bin/plink160816/plink_linux_x86_64_dev.zip
+
+build:
+  detect_binary_files_with_prefix: True
+  number: 0
+  skip: False
+
+requirements:
+  run:
+    - java-jdk
+
+test:
+  commands:
+    - "beagle | grep -q 'Browning'"
+
+about:
+  home: http://faculty.washington.edu/browning/beagle/beagle.html
+  license: GPLv3
+  summary: 'Beagle is a software package that performs genotype calling, genotype phasing, imputation of ungenotyped markers, and identity-by-descent segment detection.'

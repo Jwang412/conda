@@ -1,0 +1,20 @@
+package:
+  name: plink
+  version: '160816_linux_x86_64_dev'
+
+source:
+  fn: plink_linux_x86_64_dev.zip
+  url: https://www.cog-genomics.org/static/bin/plink160816/plink_linux_x86_64_dev.zip
+
+build:
+  number: 0
+  skip: False
+
+test:
+  commands:
+    - "plink --help"
+
+about:
+  home: "https://www.cog-genomics.org/plink2"
+  license: "GPLv3"
+  summary: "This is a comprehensive update to Shaun Purcell's PLINK command-line program, developed by Christopher Chang with support from the NIH-NIDDK's Laboratory of Biological Modeling, the Purcell Lab at Mount Sinai School of Medicine, and others"

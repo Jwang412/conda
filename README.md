@@ -9,7 +9,7 @@ Read about it here : [http://conda.pydata.org/docs/](http://conda.pydata.org/doc
 Stuff I like and use and not up on [bioconda](https://bioconda.github.io/) yet. 
 
 | Package |Url |install|
-|:---|---:|---:|
+|:---|---:|------------:|
 |glia|[https://anaconda.org/sjnewhouse/glia](https://anaconda.org/sjnewhouse/glia)|`conda install -c sjnewhouse glia=9049ffc`|
 |    |[recipe](https://github.com/snewhouse/conda/tree/master/recipes/glia)||
 |nextflow|[https://anaconda.org/sjnewhouse/nextflow](https://anaconda.org/sjnewhouse/nextflow)|`conda install -c sjnewhouse nextflow=0.18.3`|

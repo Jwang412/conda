@@ -14,7 +14,8 @@ Stuff I like and use and not up on [bioconda](https://bioconda.github.io/) yet.
 |    |[recipe](https://github.com/snewhouse/conda/tree/master/recipes/glia)||
 |nextflow|[https://anaconda.org/sjnewhouse/nextflow](https://anaconda.org/sjnewhouse/nextflow)|`conda install -c sjnewhouse nextflow=0.18.3`|
 |    |[recipe](https://github.com/snewhouse/conda/tree/master/recipes/nextflow)||
-
+|plink1.9|[https://anaconda.org/sjnewhouse/plink](https://anaconda.org/sjnewhouse/plink)|`conda install -c sjnewhouse plink=160816_linux_x86_64_dev`|
+|    |[recipe](https://github.com/snewhouse/conda/tree/master/recipes/plink-linux)|
 
 
 ***
